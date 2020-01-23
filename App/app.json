@@ -1,0 +1,40 @@
+{
+  "id": "1faa9a8b-d85a-4f52-93ae-7d1c5957fad3",
+  "name": "Demo Secret Values",
+  "publisher": "Arend-Jan Kauffmann",
+  "version": "1.0.0.0",
+  "brief": "Demo to include secret values with the app file.",
+  "description": "This app demonstrates a possible way to include secret values with the app file without putting them into code.",
+  "privacyStatement": "http://privacy",
+  "EULA": "http://eula",
+  "help": "http://help",
+  "url": "http://url",
+  "logo": "Images/AppLogo.jpg",
+  "dependencies": [
+    {
+      "appId": "63ca2fa4-4f03-4f2b-a480-172fef340d3f",
+      "publisher": "Microsoft",
+      "name": "System Application",
+      "version": "1.0.0.0"
+    },
+    {
+      "appId": "437dbf0e-84ff-417a-965d-ed2bb9650972",
+      "publisher": "Microsoft",
+      "name": "Base Application",
+      "version": "15.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "15.0.0.0",
+  "idRanges": [
+    {
+      "from": 70455525,
+      "to": 70455535
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://App.com/help/",
+  "showMyCode": true,
+  "runtime": "4.0",
+  "target": "Cloud",
+  "features": ["TranslationFile","ExcludeGeneratedTranslations"]
+}
