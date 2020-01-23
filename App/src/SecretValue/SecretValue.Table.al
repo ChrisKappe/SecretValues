@@ -14,19 +14,19 @@ table 70455525 SecretValueAJK
         {
             Caption = 'Secret Value 1';
             DataClassification = SystemMetadata;
-            // Compressed = true;
+            Compressed = true;
         }
         field(3; SecretValue2; Blob)
         {
             Caption = 'Secret Value 2';
             DataClassification = SystemMetadata;
-            // Compressed = true;
+            Compressed = true;
         }
         field(4; SecretValue3; Blob)
         {
             Caption = 'Secret Value 3';
             DataClassification = SystemMetadata;
-            // Compressed = true;
+            Compressed = true;
         }
     }
 
