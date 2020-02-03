@@ -1,4 +1,4 @@
-page 70455526 RandomTextAJK
+page 60250 RandomTextAJK
 {
     Caption = 'Random Text';
     PageType = Card;

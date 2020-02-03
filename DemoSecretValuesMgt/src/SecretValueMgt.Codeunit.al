@@ -1,49 +1,35 @@
-codeunit 70455527 SecretValueMgtAJK
+codeunit 60260 SecretValueMgtAJK
 {
     Access = Internal;
 
     var
+        SecretValue: Codeunit SecretValueAJK;
         NoAccessErr: Label 'This function can only be called from a management session.';
 
     [NonDebuggable]
-    procedure SetSecretValue(SecretValue: Text[215])
+    procedure SetSecretValue(TextValue: Text[215])
     begin
         CheckClientType();
-        OnSetSecretValue(SecretValue);
+        SecretValue.SetSecretValue(TextValue);
     end;
 
     [NonDebuggable]
     procedure PrepareSecretValueTableForExport()
     begin
         CheckClientType();
-        OnPrepareSecretValueTableForExport();
+        SecretValue.PrepareSecretValueTableForExport();
     end;
 
     [NonDebuggable]
     procedure RemoveSecretValueTableData()
     begin
         CheckClientType();
-        OnRemoveSecretValueTableData();
+        SecretValue.RemoveSecretValueTableData();
     end;
 
     local procedure CheckClientType()
     begin
         if CurrentClientType() <> ClientType::Management then
             Error(NoAccessErr);
-    end;
-
-    [IntegrationEvent(false, false)]
-    local procedure OnSetSecretValue(SecretValue: Text[215])
-    begin
-    end;
-
-    [IntegrationEvent(false, false)]
-    local procedure OnPrepareSecretValueTableForExport()
-    begin
-    end;
-
-    [IntegrationEvent(false,false)]
-    local procedure OnRemoveSecretValueTableData()
-    begin
     end;
 }

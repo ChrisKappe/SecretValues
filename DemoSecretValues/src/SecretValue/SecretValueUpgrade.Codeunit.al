@@ -1,4 +1,4 @@
-codeunit 70455528 SecretValueUpgradeAJK
+codeunit 60252 SecretValueUpgradeAJK
 {
     Subtype = Upgrade;
 

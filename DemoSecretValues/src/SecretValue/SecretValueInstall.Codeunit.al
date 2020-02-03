@@ -1,4 +1,4 @@
-codeunit 70455525 SecretValueInstallAJK
+codeunit 60251 SecretValueInstallAJK
 {
     Subtype = Install;
 

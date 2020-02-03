@@ -1,6 +1,6 @@
 {
-  "id": "1faa9a8b-d85a-4f52-93ae-7d1c5957fad3",
-  "name": "Demo Secret Values",
+  "id": "a9e18554-682c-42c0-a3bf-7427ce225bfb",
+  "name": "Demo Secret Values Management",
   "publisher": "Arend-Jan Kauffmann",
   "version": "1.0.0.0",
   "brief": "Demo to include secret values with the app file.",
@@ -9,7 +9,7 @@
   "EULA": "http://eula",
   "help": "http://help",
   "url": "http://url",
-  "logo": "Images/AppLogo.jpg",
+  "logo": "../Resources/Images/AppLogo.jpg",
   "dependencies": [
     {
       "appId": "63ca2fa4-4f03-4f2b-a480-172fef340d3f",
@@ -22,19 +22,24 @@
       "publisher": "Microsoft",
       "name": "Base Application",
       "version": "15.0.0.0"
+    },
+    {
+      "appId": "1faa9a8b-d85a-4f52-93ae-7d1c5957fad3",
+      "name": "Demo Secret Values",
+      "publisher": "Arend-Jan Kauffmann",
+      "version": "1.0.0.0"
     }
   ],
   "screenshots": [],
   "platform": "15.0.0.0",
   "idRanges": [
     {
-      "from": 70455525,
-      "to": 70455535
+      "from": 60260,
+      "to": 60269
     }
   ],
-  "contextSensitiveHelpUrl": "https://App.com/help/",
+  "contextSensitiveHelpUrl": "https://DemoSecretsMgt.com/help/",
   "showMyCode": true,
   "runtime": "4.0",
-  "target": "Cloud",
   "features": ["TranslationFile","ExcludeGeneratedTranslations"]
 }

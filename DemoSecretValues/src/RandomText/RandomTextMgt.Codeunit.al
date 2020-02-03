@@ -1,4 +1,4 @@
-codeunit 70455529 RandomTextMgtAJK
+codeunit 60253 RandomTextMgtAJK
 {
     procedure GenerateRandomText(Length: Integer) RandomText: Text
     var

@@ -1,4 +1,4 @@
-page 70455525 TestSecretValueAJK
+page 60261 TestSecretValueAJK
 {
     Caption = 'Test Secret Value';
     PageType = NavigatePage;
@@ -194,7 +194,7 @@ page 70455525 TestSecretValueAJK
     begin
         if SecretValueInput = '' then
             exit(0);
-        if SecretValueInput = SecretValue.GetSecretValue() then
+        if SecretValueInput = SecretValue.GetSecretValueFromIsolatedStorage() then
             exit(2)
         else
             exit(1);
